@@ -1,0 +1,51 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 600px;
+  min-height: 260px;
+  background-color: #ffffff;
+  padding: 30px 30px 40px;
+}
+
+.UploadFilesTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.dropBox {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+}
+
+.dropBoxHover {
+  border: 3px dotted #8cdba9;
+}
+
+.SelectFilesTitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.FilesSupported {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.FileInput {
+  display: none;
+}
+
+.ChooseBtnHover,
+.ChooseBtnHover:hover {
+  visibility: hidden;
+  transition: 0s;
+}

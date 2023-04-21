@@ -1,0 +1,15 @@
+.UploadedFiles {
+  margin-bottom: 20px;
+}
+
+.UploadedFile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

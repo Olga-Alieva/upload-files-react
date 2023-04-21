@@ -1,0 +1,10 @@
+.Input {
+  font-family: inherit;
+  border: 1px solid #6b7280;
+  border-radius: 0.5rem;
+  padding: 0.5em 0.75em;
+}
+
+.Input:focus {
+  outline: none;
+}

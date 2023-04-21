@@ -1,0 +1,30 @@
+.FilesToUpload {
+  margin: 20px 0 20px;
+}
+
+.Files {
+  margin: 10px 0 20px;
+}
+
+.CustodianWrapper {
+  margin: 20px 0 20px;
+}
+
+.File {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.Title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Error {
+  color: red;
+  flex-basis: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Container {
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fcfcfc;
+}
+
+.Card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  min-height: 260px;
+  background-color: #ffffff;
+  padding: 30px 30px 40px;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #005af0;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+
+.SvgIcon {
+  width: 1em;
+  height: 1em;
+}
+
+.SvgIcon path,
+.SvgIcon polygon,
+.SvgIcon rect {
+  fill: #4691f6;
+}
+
+.SvgIcon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.Copyright {
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+iframe {
+  display: none;
+  z-index: -1;
+}
